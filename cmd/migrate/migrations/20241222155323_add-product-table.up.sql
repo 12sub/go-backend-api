@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS productss (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `firstname` VARCHAR(255) NOT NULL,
+    'description' TEXT NOT NULL,
+    `image` VARCHAR(255) NOT NULL,
+    `price` DECIMAL(10, 2) NOT NULL,
+    `quantity` INT UNSIGNED NOT NULL,
+    `createdAt` CURRENT_TIMESTAMP NOT NULL DEFAULT TIMESTAMP,
+
+    PRIMARY KEY (id),
+
+);
